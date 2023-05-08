@@ -1,0 +1,102 @@
+
+/*  All icon hamb menu   */
+
+
+/*  Hamburg Config   */
+.navbar-toggler {
+    padding: 0;
+    margin-right: -.5rem;
+    border: 0
+}
+.navbar-toggler:first-child {
+    margin-left: -.5rem
+}
+.navbar-toggler .bi {
+    width: 1.5rem;
+    height: 1.5rem
+}
+.navbar-toggler:focus {
+    box-shadow: none
+}
+.navbar-toggler.active,.nav-link.active {
+    font-weight: 600;
+}
+.offcanvas-lg {
+    border-left: 0
+}
+
+.bd-gutter {
+    --bs-gutter-x: 3rem
+}
+    /*  Hamburg Itens  */
+
+.offcanvas-body {
+    flex-direction: row;
+}
+
+.offcanvas-body a{
+    letter-spacing: 1.5px;
+    font-size: 110%;
+    font-family: 'Sarala', sans-serif;
+    transition: opacity 0.3s;
+}
+
+.offcanvas-body a:hover{
+    color: #2b4c7e;
+    opacity: 0.7;
+}
+
+.offcanvas-footer li{
+    width: auto;
+        transition: opacity 0.3s;
+}
+
+.offcanvas-footer li:hover{
+    opacity: 0.7;
+}
+
+   /*      ANIMAÇÃO HANB       */
+    
+
+@media (prefers-reduced-motion: reduce) {
+    .bd-navbar .navbar-brand {
+        transition: none
+    }
+}
+
+@media (max-width: 991.98px) {
+    .offcanvas-lg {
+        box-shadow:0 1rem 3rem rgba(0,0,0,0.175)
+    }
+}
+
+@media (max-width: 991.98px) {
+    .offcanvas-body {
+        flex-direction: column;
+    }
+
+    .offcanvas-body ul{
+        justify-content: center;
+        align-items: center;
+        height: 90%;
+    }
+
+    .offcanvas-body li{
+        width: auto;
+        letter-spacing: 3px;
+        font-size: 160%;
+        opacity: 0;
+    }
+}
+
+@keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+

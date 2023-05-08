@@ -1,0 +1,91 @@
+
+/* *//* */
+    /*  BackGround Colors   */
+
+.bg-color-1 {
+    background-color: #dce0e6;
+}
+
+.bg-color-2 {
+    background-color: #e8e8e8;
+}
+
+    /*  txt Colors   */
+
+.txt-color-1 {
+    color: black;
+}
+
+.txt-color-2 {
+    color: #2b4c7e;
+}
+
+    /*  Max width for all content   */
+
+
+.offcanvas-title {
+    font-family: 'Sarala', sans-serif;
+    text-shadow: 3px 6px 4px rgba(0,0,0,0.2);
+}
+
+    /*  Main config   */
+
+.bd-masthead {
+    background: rgb(43,76,126);
+background: linear-gradient(180deg, rgba(43,76,126,0.5264880952380952) 5%, rgba(86,126,187,0.3788690476190477) 16%, rgba(220,224,230,0.5116421568627452) 69%);
+}
+
+.start-container {
+    height: 88.4vh !important;
+}
+
+.topic-about-first-box {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.topic-about-second-box {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.topic-about-container img {
+    margin-top: 10%;
+}
+
+.topic-about-container h1 {
+    font-size: 3rem;
+    font-family: 'Sarala', sans-serif;
+    text-shadow: 3px 6px 4px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+}
+
+.topic-about-container h2 {
+    margin-top: 10%;
+    margin-left: 1rem;
+    font-size: 2rem;
+    font-family: 'Sarala', sans-serif;
+    text-shadow: 3px 6px 4px rgba(0,0,0,0.2);
+    margin-bottom: 0;
+}
+
+.topic-about-container h3 {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Sarala', sans-serif;
+    text-shadow: 3px 6px 4px rgba(0,0,0,0.2);
+    margin-bottom: 2rem;
+}
+
+.topic-about-container p {
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    text-shadow: 1px 4px 2px rgba(0,0,0,0.1);
+    margin-bottom: 0;
+}
+
