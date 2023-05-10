@@ -91,7 +91,6 @@
         width: auto;
         letter-spacing: 3px;
         font-size: 160%;
-        opacity: 0;
     }
     
     .offcanvas-lg {
@@ -123,16 +122,9 @@
     .offcanvas-lg.offcanvas-end {
         width: 65%;
     }
-}
 
-@keyframes navLinkFade {
-    from {
-      opacity: 0;
-      transform: translateX(50px);
+    .offcanvas-footer img{
+        height: 45px;
     }
-    to {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+}
 
