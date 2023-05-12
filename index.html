@@ -23,7 +23,7 @@
   <title>Luan Pachioni</title>
 </head>
 
-<body class="bg-color-2">
+<body class="bg-color-2" id="inicio">
   <header class="navbar navbar-expand-lg bd-navbar sticky-top bg-color-1 shadow">
     <nav class="container-xxl bd-gutter flex-wrap flex-lg-nowrap bg-color-1 " aria-label="Main navigation">
 
@@ -53,18 +53,16 @@
           <hr class="d-lg-none text-50">
           <ul class="navbar-nav flex-wrap bd-navbar-nav">
             <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link py-2 px-0 px-lg-2 txt-color-1" aria-current="true" href="#"
-                onclick="ga('send', 'event', 'Navbar', 'Community links', 'Docs');">Inicio</a>
+              <a class="nav-link py-2 px-0 px-lg-2 txt-color-1 nav-links-scroll" href="#inicio">Inicio</a>
             </li>
             <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link py-2 px-0 px-lg-2 txt-color-1" href="#"
-                onclick="ga('send', 'event', 'Navbar', 'Community links', 'Icons');" target="_blank"
-                rel="noopener">Serviços</a>
+              <a class="nav-link py-2 px-0 px-lg-2 txt-color-1 nav-links-scroll d-block d-md-none" href="#sobre">Sobre</a>
             </li>
             <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link py-2 px-0 px-lg-2 txt-color-1" href="#"
-                onclick="ga('send', 'event', 'Navbar', 'Community links', 'Icons');" target="_blank"
-                rel="noopener">Agendamento</a>
+              <a class="nav-link py-2 px-0 px-lg-2 txt-color-1 nav-links-scroll" href="#services">Serviços</a>
+            </li>
+            <li class="nav-item col-6 col-lg-auto">
+              <a class="nav-link py-2 px-0 px-lg-2 txt-color-1" href="https://wa.me/558288687496"target="_blank">Agendamento</a>
             </li>
           </ul>
           <ul class=" navbar-nav flex-row flex-wrap ms-md-auto d-none d-lg-flex">
@@ -74,7 +72,7 @@
               </a>
             </li>
             <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link py-2 px-0 px-lg-2" href="#" target="_blank" rel="noopener">
+              <a class="nav-link py-2 px-0 px-lg-2" href="https://wa.me/558288687496" target="_blank" rel="noopener">
                 <img src="img/whatsapp.png" height="23" width="23" alt="">
               </a>
             </li>
@@ -94,7 +92,7 @@
                   alt="Instagram Link"></a>
             </li>
             <li class="nav-item col-6 col-lg-auto">
-              <a class="nav-link py-2 px-0 px-lg-2" href="#"
+              <a class="nav-link py-2 px-0 px-lg-2" href="https://wa.me/558288687496"
                 onclick="ga('send', 'event', 'Navbar', 'Community links', 'Examples');"><img src="img/whatsapp.png"
                   alt="Whatsapp Link"></a>
             </li>
@@ -122,10 +120,12 @@
           <div class="container topic-about-first-box w-auto">
             <h1>Luan Pachioni</h1>
             <p class="txt-color-2">fisioterapeuta</p>
-            <button type="button" class=" bg-color-3 txt-color-3 d-block d-md-none">Serviços</button>
+            <a href="#services">
+              <button type="button" class=" bg-color-3 txt-color-3 d-block d-md-none">Serviços</button>
+            </a>
           </div>
         </div>
-        <div class=" topic-about-container2">
+        <div class=" topic-about-container2" id="sobre">
           <div class="container topic-about-second-box ">
 
             <h2>Sobre</h2>
@@ -139,14 +139,16 @@
             <div class="box-style-img-about bg-color-3"></div>
           </div>
         </div>
-        <button class="btn button-down-next d-block d-md-none " type="button">
-          <img src="img/setaDown.png" height="40px" alt="">
-        </button>
+        <a href="#services">
+          <button class="btn button-down-next d-block d-md-none " type="button">
+            <img src="img/setaDown.png" height="40px" alt="">
+          </button>
+        </a>
       </div>
 
       <!-- Services -->
 
-      <div class="container index-container d-flex flex-column align-items-center">
+      <div class="container index-container d-flex flex-column align-items-center" id="services">
         <div class="title-topic">
           <h1>Serviços</h1>
         </div>
@@ -156,7 +158,9 @@
             <div class="card-body">
               <h5 class="card-title txt-color-2">Card title</h5>
               <p>Some quick example text to build on the cardxcnbkhjxnc title and make up the bulk of the card's content.</p> 
-              <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>             
+              <a href="https://wa.me/558288687496" target="_blank" rel="noopener noreferrer">
+                <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>
+              </a>         
             </div>
           </div>
           <div class="card services-cards bg-color-1" style="width: 18rem;">
@@ -164,7 +168,9 @@
             <div class="card-body">
               <h5 class="card-title txt-color-2">Card title</h5>
               <p>Some quick example text to build on the cardxcnbkhjxnc title and make up the bulk of the card's content.</p> 
-              <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>             
+              <a href="https://wa.me/558288687496" target="_blank" rel="noopener noreferrer">
+                <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>
+              </a>         
             </div>
           </div>
           <div class="card services-cards bg-color-1" style="width: 18rem;">
@@ -172,7 +178,9 @@
             <div class="card-body">
               <h5 class="card-title txt-color-2">Card title</h5>
               <p>Some quick example text to build on the cardxcnbkhjxnc title and make up the bulk of the card's content.</p> 
-              <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>             
+              <a href="https://wa.me/558288687496" target="_blank" rel="noopener noreferrer">
+                <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>
+              </a>         
             </div>
           </div>
           <div class="card services-cards bg-color-1" style="width: 18rem;">
@@ -180,7 +188,9 @@
             <div class="card-body">
               <h5 class="card-title txt-color-2">Card title</h5>
               <p>Some quick example text to build on the cardxcnbkhjxnc title and make up the bulk of the card's content.</p> 
-              <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>             
+              <a href="https://wa.me/558288687496" target="_blank" rel="noopener noreferrer">
+                <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>
+              </a>         
             </div>
           </div>
           <div class="card services-cards bg-color-1" style="width: 18rem;">
@@ -188,7 +198,9 @@
             <div class="card-body">
               <h5 class="card-title txt-color-2">Card title</h5>
               <p>Some quick example text to build on the cardxcnbkhjxnc title and make up the bulk of the card's content.</p> 
-              <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>             
+              <a href="https://wa.me/558288687496" target="_blank" rel="noopener noreferrer">
+                <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>
+              </a>         
             </div>
           </div>
           <div class="card services-cards bg-color-1" style="width: 18rem;">
@@ -196,7 +208,9 @@
             <div class="card-body">
               <h5 class="card-title txt-color-2">Card title</h5>
               <p>Some quick example text to build on the cardxcnbkhjxnc title and make up the bulk of the card's content.</p> 
-              <button type="button"  class=" bg-color-3 txt-color-3">Agendamento</button>             
+              <a href="https://wa.me/558288687496" target="_blank" rel="noopener noreferrer">
+                <button type="button" class=" bg-color-3 txt-color-3">Agendamento</button>
+              </a>         
             </div>
           </div>
           
@@ -211,9 +225,9 @@
         <img src="img/LogoLuanPachioni1.png" class="my-3 img-logo-footer" height="140px" alt="Logo Luan Pachioni">
         <div class="d-flex flex-column align-items-center justify-content-center">
           <div class="d-flex flex-row container-footer-links" >
-              <a class="nav-link" href="https://www.instagram.com/luanpachioni/" target="_blank"><img src="img/instagram.png" alt="Instagram Link"></a>
-              <a class="nav-link mx-2" href="#" target="_blank"><img src="img/whatsapp.png" alt="Whatsapp Link"></a>
-              <a class="nav-link" href="#" target="_blank" rel="noopener"><img src="img/gmail.png" alt="Gmail Link"></a>
+              <a class="nav-link" href="https://www.instagram.com/luanpachioni/" target="_blank" rel="noopener noreferrer"><img src="img/instagram.png" alt="Instagram Link"></a>
+              <a class="nav-link mx-2" href="https://wa.me/558288687496" target="_blank" rel="noopener noreferrer"><img src="img/whatsapp.png" alt="Whatsapp Link"></a>
+              <a class="nav-link" href="#" target="_blank" rel="noopener noreferrer"><img src="img/gmail.png" alt="Gmail Link"></a>
           </div>
           <p>Crefito</p>
         </div>
@@ -229,7 +243,7 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
   <!-- Js do projeto -->
-  <script src="js/hambMenu.js"></script>
+  <script src="js/Scroll.js"></script>
 </body>
 
 </html>

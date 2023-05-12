@@ -52,13 +52,12 @@
 
 .bd-masthead {
     background: rgb(43,76,126);
-    background: linear-gradient(180deg, rgba(43,76,126,0.6026785714285714) 21%, rgba(86,126,187,0.5788690476190477) 43%, rgba(220,224,230,0.5116421568627452) 87%, rgba(232,232,232,1) 96%);
-
+        background: linear-gradient(180deg, rgba(43,76,126,0.6026785714285714) 11%, rgba(86,126,187,0.5788690476190477) 22%, rgba(220,224,230,0.5116421568627452) 44%, rgba(232,232,232,1) 48%);
     background-size: 100vh;
 }
 
 .start-container {
-    height: 92vh !important;
+    height: 84vh !important;
     position: relative;
 }
 
@@ -180,14 +179,7 @@
 }
 
 .button-down-next {
-    position: absolute;
     width: fit-content;
-    bottom: 2rem;
-    transition: bottom 0.5s;
-}
-
-.button-down-next:hover {
-    bottom: 0.5rem;
 }
 
 .button-down-next img {
@@ -202,6 +194,11 @@
 .index-container {
     
     position: relative;
+}
+
+#services {
+    min-height: 83vh;
+    padding-top: 8vh;
 }
 
 .container-services-cards {
@@ -348,11 +345,11 @@
     }
 
     .topic-about-container img {
-        margin-top: 36%;
+        margin-top: 56%;
     }
 
     .topic-about-container2 {
-        height: 93vh;
+        height: 84vh;
         flex-direction: column;
         align-items: start;
         margin-top: 8vh;
